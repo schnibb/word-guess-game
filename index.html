@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Word Guess Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <img src="assets/images/gameHeader.jpg" class="img-fluid" alt="word game header image">
+        <hr class="my-4">
+        <p>Welcome to the game. You will be guessing 90s TV shows.</p>
+        <p class="lead">
+            <button type="button" class="btn btn-primary btn-lg" id="startGame">Click to Start</button>
+        </p>
+    </div>
+    <div>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mt-2">
+                    <div class="card-body">
+                        <div class="card-text">
+                            <h3>Wins: </h3>
+                            <p id="wins"></p>
+                            <h3>Losses: </h3>
+                            <p id="losses"></p>
+                            <h3>Guesses Remaining: </h3>
+                            <p id="guessesRemaining"></p>
+                            <h3> Used Letters: </h3>
+                            <p id="usedLetters"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mt-2">
+                    <div class="card-body">
+                        <div class="card-text">
+                            <h3>Current Word: </h3>
+                            <p id="currentWord"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="page-footer font-small blue fixed-bottom bg-dark text-light">
+        <div class="footer-copyright text-center py-3">2018 Copyright
+        </div>
+    </footer>
+
+    <script src="assets/javascript/game.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
